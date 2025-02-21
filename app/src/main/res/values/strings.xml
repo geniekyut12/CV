@@ -323,7 +323,7 @@
     <string name="eggtstcal">est. 500 cal.</string>
     <string name="mgreen">MOVE Green</string>
     <string name="did_you_know">Did you know?</string>
-   <string name="track_my_trip">TRACK MY TRIP</string>
+    <string name="track_my_trip">TRACK MY TRIP</string>
     <string name="sphere">SPHERE IN A JAR</string>
     <string name="explore">Explore</string>
     <string name="spheretxts">Replicate the Earth’s \nmajor psheres by \nmaking a terrarium.</string>
@@ -406,6 +406,8 @@
     <string name="businfo">A single gas-powered car emits 4.6 tons of CO₂ yearly—equivalent to burning over 500 gallons of gasoline!</string>
     <string name="walkinfo">"If you walk instead of driving just one mile, you prevent about 404 grams of CO₂ from entering the atmosphere. "</string>
     <string name="bikeinfo">Riding a bike cuts carbon emissions by over 90% compared to driving!. Pedal for a greener planet! 🌱♻️</string>
+    <string name="myrwrd">My Rewards</string>
+    <string name="redeem">Redeem</string>
     <string-array name="dropdown_options">
         <item>Chicken</item>
         <item>Dairy</item>
@@ -415,4 +417,11 @@
         <item>None</item>
     </string-array>
 
+
+   <string name="enjoy">Enjoy the perks! Your points \nhave been redeemed—go \ntreat yourself!</string>
+    <string name="oneKpts">1000 points to redeem 5% discount</string>
+    <string name="rewann">Woohoo! You\'ve grabbed a deal!</string>
+    <string name="claim">CLAIM NOW!</string>
+    <string name="point">Points once redeemed will not be refunded.</string>
+    <string name="doyouwant">Do you want to redeem?</string>
 </resources>

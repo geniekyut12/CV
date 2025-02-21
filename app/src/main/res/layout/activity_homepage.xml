@@ -18,11 +18,11 @@
             android:id="@+id/recom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20sp"
             android:text="@string/homerecom"
             android:textColor="@color/grayG"
             android:textSize="22sp"
-            android:fontFamily="@font/poppins_semibold_italic"
+            android:fontFamily="@font/figtreebold"
             android:textStyle="bold" />
 
         <!-- Horizontal Scrollable Food List -->
@@ -31,6 +31,7 @@
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
             android:background="@drawable/attenbg"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
@@ -46,7 +47,7 @@
                 <com.google.android.material.tabs.TabItem
                     android:text="@string/bfast"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"/>
+                    android:layout_width="wrap_content" />
 
                 <com.google.android.material.tabs.TabItem
                     android:text="@string/lunch"
@@ -75,7 +76,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="5sp"
             android:text="@string/mgreen"
             android:textColor="@color/grayG"
             android:textSize="25sp"
@@ -86,6 +88,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginBottom="15sp"
             android:text="@string/movedesc"
             android:textColor="@color/black"
             android:textSize="14sp"
@@ -271,7 +274,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="10sp"
             android:text="@string/explore"
             android:textColor="@color/grayG"
             android:textSize="25sp"
@@ -285,6 +289,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fillViewport="true"
+            android:paddingBottom="90sp"
             android:overScrollMode="never"
             android:scrollbars="none">
 

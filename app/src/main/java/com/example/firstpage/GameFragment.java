@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,6 +37,7 @@ public class GameFragment extends Fragment {
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
 
+
     public GameFragment() {
         // Required empty public constructor
     }
@@ -44,6 +46,7 @@ public class GameFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_game, container, false);
+
     }
 
     @Override
@@ -81,6 +84,13 @@ public class GameFragment extends Fragment {
                 openActivity(Game.class);  // Start Game activity
             }
         });
+        // Set Click Listeners for Buttons
+        view.findViewById(R.id.btn_myRew).setOnClickListener(v -> {
+            if (getActivity() != null) {
+                openActivity(FragmentRewardM.class);  // Start Game activity
+            }
+        });
+
 
         view.findViewById(R.id.feature2B).setOnClickListener(v -> {
             if (getActivity() != null) {
@@ -93,6 +103,7 @@ public class GameFragment extends Fragment {
 
         // Mark attendance button
         view.findViewById(R.id.btnMarkAttendance).setOnClickListener(this::markAttendance);
+
 
         // Check if it's a new day and reset attendance button if necessary
         checkAndResetAttendance(lastMarkedDate);

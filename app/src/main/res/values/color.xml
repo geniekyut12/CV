@@ -23,6 +23,7 @@
         <color name="homepagebg">#F9FFF1</color>
         <color name="main">#E1E1E1</color>
         <color name="darkG">#047B45</color>
+        <color name="atten">#E0EECD</color>
 
         <color name="white">#FFFFFFFF</color>
 </resources>
