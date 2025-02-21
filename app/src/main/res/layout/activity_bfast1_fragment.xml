@@ -12,10 +12,19 @@
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop" />
 
+    <LinearLayout
+        android:id="@+id/eggtstpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="28dp">
+
     <Button
         android:id="@+id/captureButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/capturebtn" />
 
     <Button
@@ -24,6 +33,7 @@
         android:layout_height="wrap_content"
         android:text="@string/gallery"
         android:layout_marginTop="10dp" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/resultText"

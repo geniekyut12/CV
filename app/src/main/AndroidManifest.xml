@@ -23,7 +23,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firstpage"
         tools:targetApi="34">
-
+        <activity
+            android:name=".Winner"
+            android:exported="false" />
+        <activity
+            android:name=".GOver"
+            android:exported="false" />
+        <activity
+            android:name=".DragGame"
+            android:exported="false" />
         <activity
             android:name=".RewWani5per"
             android:exported="false" />

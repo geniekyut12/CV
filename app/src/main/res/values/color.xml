@@ -24,6 +24,6 @@
         <color name="main">#E1E1E1</color>
         <color name="darkG">#047B45</color>
         <color name="atten">#E0EECD</color>
-
+        <color name="default_zone_color">#D3D3D3</color>
         <color name="white">#FFFFFFFF</color>
 </resources>
